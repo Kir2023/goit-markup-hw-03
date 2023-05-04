@@ -314,7 +314,7 @@ body {
 .filter-btn:focus {
   color: var(--primary-text-color-theme-light);
   background-color: var(--accent-color);
-  border: 1px solid transparen;
+  border: 1px solid transparent;
 }
 .portfolio-list {
   display: flex;
