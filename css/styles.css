@@ -285,6 +285,16 @@ body {
   color: var(--secondary-text-color-theme-light);
 }
 /* Portfolio */
+.portfolio-section {
+  padding: 96px 0 120px;
+}
+.filter-btn-list {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 72px;
+  align-items: center;
+  justify-content: center;
+}
 .filter-btn {
   font-family: var(--main-font-family);
   font-weight: 500;
@@ -292,6 +302,10 @@ body {
   line-height: 1.5;
   align-items: center;
   text-align: center;
+  min-width: 69px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid var(--portfolio-btn-color);
   letter-spacing: 0.04em;
   color: var(--primary-color);
   background-color: var(--secondary-text-color-theme-light);
@@ -301,12 +315,18 @@ body {
   color: var(--primary-text-color-theme-light);
   background-color: var(--accent-color);
 }
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
 .portfolio-list-header {
   font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
   color: var(--secondary-text-color-theme-dark);
 }
 .portfolio-filter {
@@ -315,4 +335,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color-theme-dark);
+}
+.portfolio-list-item-description {
+  border: 1px solid var(--portfolio-btn-color);
+  border-top: none;
 }
